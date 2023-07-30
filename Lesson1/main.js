@@ -33,4 +33,12 @@ arrMap1.forEach((item) => {
 
 const arrMap3 = arrMap1.map((item) => item * 2);
 
-const arrmap4
+const arrMap4 = [
+    {firstName: "Mai", lastName: "Dang"},
+    {firstName: "Vu", lastName: "Anh"}
+]
+const arrMap5 = arrMap4.map((item, index) => {
+    return `${item.firstName} ${item.lastName}`
+});
+
+console.log(arrMap5);
