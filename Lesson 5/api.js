@@ -1,4 +1,4 @@
-let api = [
+let apii = [
     {
     "id": 1,
     "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
@@ -240,3 +240,11 @@ let api = [
     }
     }
     ]
+
+const apiiElement = document.getElementById('apii');
+
+const renderApii = () => {
+    apiiElement.innerHTML = "";
+
+    const titleElm = 
+}
