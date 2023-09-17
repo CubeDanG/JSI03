@@ -7,7 +7,7 @@ const handleSignInAnonymously = () => {
     signInAnonymously(auth)
   .then(() => {
     // Signed in..
-    const user = userCredential.user;
+    // const user = userCredential.user;
     alert("Đăng nhập thành công, chuyển đến trang chủ.")
     window.location.replace("../Lesson6/index.html")
   })
