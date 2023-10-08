@@ -16,9 +16,3 @@ const editProfileBtn = document.getElementById('edit-profile-btn');
 editProfileBtn.addEventListener('click', () => {
     window.location = './profile-edit.html';
 })
-
-const chatBtn = document.getElementById('chat-btn');
-
-chatBtn.addEventListener('click', () => {
-    window.location = './chat.html';
-})

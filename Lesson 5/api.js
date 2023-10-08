@@ -246,5 +246,5 @@ const apiiElement = document.getElementById('apii');
 const renderApii = () => {
     apiiElement.innerHTML = "";
 
-    const titleElm = 
+    const titleElm = title
 }
